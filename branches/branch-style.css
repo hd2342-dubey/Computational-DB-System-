@@ -1,0 +1,80 @@
+body {
+  font-size: 90%;
+  color: #666;
+  background-color: #f8f8f8;
+}
+
+table {
+  font-family: Arial, Verdana, sans-serif;
+  border-spacing: 1px;
+  margin: auto auto;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 1vw;
+  margin: 0px;
+}
+
+th,
+td {
+  text-align: left;
+  border-top: 1px solid #f1f8fe;
+  border-bottom: 1px solid #cbd2d8;
+  border-right: 1px solid #cbd2d8;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e9f0;
+}
+
+tr.thead th {
+  color: #fff;
+  background-color: #90b4d6;
+  border-bottom: 2px solid #547ca0;
+  border-right: 1px solid #749abe;
+  border-top: 1px solid #90b4d6;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666;
+  letter-spacing: 0.15em;
+}
+
+td {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+tr.thead th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+
+tr.thead th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 10vw;
+  border: 1px solid #000f66;
+  background-color: #005c99;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid #011d64;
+  background-color: #0d3abe;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+table th {
+  position: relative;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <script src="js/flipbook.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#container").flipBook({
+                pdfUrl: "pdf/71.pdf",
+                textLayer: true
+            });
+
+        })
+    </script>
+
+</head>
+
+<body>
+    <div id="container" />
+
+
+</body>
+
+</html>
